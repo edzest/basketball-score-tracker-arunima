@@ -1,0 +1,72 @@
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color:darkgray;
+  padding: 10px;
+  margin:20px 400;
+}
+  
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+  
+.item1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 /span 2;
+}
+  
+.item2 {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+  
+.item3 {
+  grid-column: 1;
+  grid-row: 4/ span 30;
+  font-size: 300px;
+}
+  
+.item4 {
+  grid-column: 2;
+  grid-row: 4 / span 30;
+  font-size: 300px;
+}
+
+#TeamA, #TeamB{
+  width: 155px;
+  height: 120px;
+  margin: 15px;
+  background-color: black;
+  color: rgb(255, 53, 90);
+  font-size: 90px;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 7px;
+}
+
+
+.operate{
+  width: 178px;
+  height: 55px;
+  margin-right: 0px;
+  padding-left: 60px;
+    
+}
+
+.operate > button{
+  width: 45px;
+  height: 45px;
+  margin-top: -200px;
+  background-color: black;
+  border: 2px solid rgb(219, 219, 219);
+  font-size: 18px;
+  color: rgb(219, 219, 219);
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.operate > button:active{
+  background-color: rgba(255, 255, 255, 0.275);
+}
